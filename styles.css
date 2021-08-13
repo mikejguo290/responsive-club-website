@@ -70,7 +70,7 @@ nav ul li {
 }
 
 #cta {
-    margin-top: 0.5rem;
+    margin: 0.5rem 0rem;
     width: 10rem;
     align-self:center;
     color: white;
@@ -78,21 +78,21 @@ nav ul li {
     border-radius:0.3rem;
 }
 
-.explainer.images {
+.explainer-images {
     display:flex; 
     flex-direction:row; /* specify here, otherwise it inherits from .explainer! */
     flex-wrap:wrap;
+    align-content:center;
 }
-.explainer.images figure {
+.explainer-images figure {
     width: 100%;
-    margin-bottom:0.2rem;
 }
-.explainer.images figure img{
+.explainer-images figure img{
     max-width:100%;
     height:auto;
     display:block;
 }
-.competitive{
+.competitive {
     color:white;
     background-color:#374767;
     padding:2rem 0rem;
