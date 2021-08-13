@@ -1,6 +1,16 @@
 *{
     border: 1px red solid;
 }
+body {
+    width: 90%;
+    margin: auto;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
 
 nav {
     /* width */
@@ -16,3 +26,4 @@ nav ul {
 nav ul li {
     /* need padding */
 }
+
