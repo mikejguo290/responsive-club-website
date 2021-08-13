@@ -54,11 +54,15 @@ nav ul li {
     justify-content:space-between;
 }
 
-.explainer.images{
-    display:flex;
+.explainer.images {
+    display:flex; 
+    flex-direction:row; /* specify here, otherwise it inherits from .explainer! */
     flex-wrap:wrap;
 }
-
+.explainer.images figure {
+    width: 100%;
+    margin-bottom:0.2rem;
+}
 .explainer.images figure img{
     max-width:100%;
     height:auto;
