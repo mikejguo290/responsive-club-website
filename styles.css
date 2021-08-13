@@ -14,6 +14,8 @@ body {
 
 nav {
     /* width */
+    border-top: 0.3rem #374767 solid;
+    border-bottom: 0.3rem #374767 solid;
 }
 
 nav ul {
@@ -27,8 +29,12 @@ nav ul li {
     /* need padding */
 }
 
+.content {
+    width:90%;
+    margin: auto;
+}
+
 .jumbotron {
-    width: 80%;
     height: 15rem;
     background-color: white;
     margin: auto;
@@ -37,4 +43,5 @@ nav ul li {
     background-size: contain;
     background-position:center;
 }
+
 
