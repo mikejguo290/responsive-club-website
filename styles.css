@@ -73,7 +73,8 @@ nav ul li {
     width: 10rem;
     align-self:center;
     color: white;
-    background-color:
+    background-color:#CF123C;
+    border-radius:0.3rem;
 }
 
 .explainer.images {
@@ -93,5 +94,6 @@ nav ul li {
 .competitive{
     color:white;
     background-color:#374767;
+    padding:2rem 0rem;
 }
 
