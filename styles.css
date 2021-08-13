@@ -27,3 +27,14 @@ nav ul li {
     /* need padding */
 }
 
+.jumbotron {
+    width: 80%;
+    height: 15rem;
+    background-color: white;
+    margin: auto;
+    background-image: url('resources/images/curve-logo.jpeg');
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position:center;
+}
+
