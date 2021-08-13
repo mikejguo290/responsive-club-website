@@ -1,21 +1,29 @@
 *{
     border: 1px red solid;
 }
+
 body {
     width: 95%;
     margin: auto;
+}
+
+.content {
+    font-family:'Roboto';
 }
 
 .icons {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    font-family:'Bebas Neue';
 }
 
 nav {
     /* width */
     border-top: 0.3rem #374767 solid;
     border-bottom: 0.3rem #374767 solid;
+    /* BebasRegular was the original*/
+    font-family:'Bebas Neue';
 }
 
 nav ul {
