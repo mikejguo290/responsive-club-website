@@ -5,25 +5,29 @@
 body {
     width: 95%;
     margin: auto;
+    color:#333; /*off black color*/
 }
 
 .content {
     font-family:'Roboto';
 }
 
+.icons, nav {
+    /* BebasRegular was the original*/
+    font-family:'Bebas Neue';
+    color:#374767;
+}
+
 .icons {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    font-family:'Bebas Neue';
 }
 
 nav {
     /* width */
     border-top: 0.3rem #374767 solid;
     border-bottom: 0.3rem #374767 solid;
-    /* BebasRegular was the original*/
-    font-family:'Bebas Neue';
 }
 
 nav ul {
@@ -68,6 +72,8 @@ nav ul li {
     margin-top: 0.5rem;
     width: 10rem;
     align-self:center;
+    color: white;
+    background-color:
 }
 
 .explainer.images {
