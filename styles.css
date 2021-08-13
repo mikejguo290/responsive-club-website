@@ -16,6 +16,7 @@ body {
     /* BebasRegular was the original*/
     font-family:'Bebas Neue';
     color:#374767;
+    letter-spacing:0em;
 }
 
 .icons {
