@@ -61,7 +61,7 @@ nav ul li {
     background-position:center;
 }
 
-.explainer {
+.ethos {
     margin-top: 1rem;
     display:flex;
     flex-direction:column;
@@ -78,16 +78,16 @@ nav ul li {
     border-radius:0.3rem;
 }
 
-.explainer-images {
+.ethos-images {
     display:flex; 
     flex-direction:row; /* specify here, otherwise it inherits from .explainer! */
     flex-wrap:wrap;
     align-content:center;
 }
-.explainer-images figure {
+.ethos-images figure {
     width: 100%;
 }
-.explainer-images figure img{
+.ethos-images figure img{
     max-width:100%;
     height:auto;
     display:block;
