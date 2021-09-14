@@ -106,3 +106,23 @@ nav ul li {
     padding:2rem 0rem;
 }
 
+.logistics {
+    color:#374767;
+    border: 6px solid #CCC;
+    padding:10px;
+}
+
+.training {
+    color: #CF123C;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+
+.training h2 {
+    font-weight:600;
+}
+.training strong{
+    font-weight: 800;
+}
