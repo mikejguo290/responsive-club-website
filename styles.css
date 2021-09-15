@@ -79,9 +79,15 @@ nav ul li {
     padding-left:0.625rem;
     padding-right:0.625rem;
 }
+.ethos h2 {
+    margin-bottom: 0.625rem;
+}
 
+.ethos p {
+    margin-bottom: 0.3125rem;
+}
 #cta {
-    margin: 0.5rem 0rem;
+    margin: 2rem 0rem;
     width: 10rem;
     align-self:center;
     color: white;
