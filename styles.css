@@ -78,6 +78,10 @@ nav ul li {
     align-items: flex-start;
 }
 
+.ethos h2 {
+    align-self:center;
+}
+
 #cta {
     margin: 0.5rem 0rem;
     width: 10rem;
