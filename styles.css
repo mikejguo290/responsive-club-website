@@ -141,6 +141,12 @@ nav ul li {
 
 /* for the responsive design, try to do designs for three devices. mobile, tablet(ipad vertical) and desktops */
 /* changing page layout could mean displaying items hidden at lower widths, changing widths of content, etc rather than switching to grid */
+@media screen and (min-width:480px){
+    .ethos h2 {
+        align-self:center;
+    }
+}
+
 @media screen and (min-width:768px){
     /* serve three images to a row. leave a bit of space in between */
     .ethos-images {
