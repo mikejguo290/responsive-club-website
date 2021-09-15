@@ -67,6 +67,7 @@ nav ul li {
     background-repeat:no-repeat;
     background-size: contain;
     background-position:center;
+    display:none; /* hide the jumbotron on mobile devices so users can see the CTA 'come join us' at a glacne */
 }
 
 .ethos {
