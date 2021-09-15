@@ -80,7 +80,8 @@ nav ul li {
     padding-right:0.625rem;
 }
 .ethos h2 {
-    margin-bottom: 0.625rem;
+    margin-bottom: 0.625em;
+    color:#374767;
 }
 
 .ethos p {
@@ -178,6 +179,7 @@ nav ul li {
         margin: auto;
     }
     .ethos h2 {
+        font-size:2em; /* em links font-size to its parent, and other attributes, like width, margin, to font-size of the element itself.*/
         align-self:center; /* center h2 but not the text below it! weird look." */
     }
     .competitive{
