@@ -50,8 +50,8 @@ nav ul {
 
 nav ul li {
     /* need padding */
-    padding:0.2em 0.5em;
-    margin:0.2em 0.3em;
+    padding:0.2em 0.5em; /* at font of 16px, that's 3px+ up vertically, 8px horizontal */
+    margin:0.2em 0.3em; /* at font of 16px, that's 3px+ up vertical, 5px+ horizontal */
 }
 
 .content {
@@ -150,5 +150,22 @@ nav ul li {
     }
     .ethos-images figure {
         width: 33%;
-    }  
+    } 
+}
+
+@media screen and (min-width:1024px){
+    /* make nav items bigger and display jumbotron. */ 
+
+    /* increase font size of the navigation men items. responsively defined margin and padding would increase with font size. */ 
+    nav ul {
+        font-size:24px; /* up from 16px to affect the <li><p></p></li>*/
+    }
+
+    /* display jumbotron banner image */ 
+    .jumbotron {
+        display:block;
+    }
+    .competitive{
+        text-align:center;
+    }
 }
