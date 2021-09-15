@@ -88,7 +88,7 @@ nav ul li {
 
 .ethos-images {
     display:flex; 
-    flex-direction:row; /* specify here, otherwise it inherits from .explainer! */
+    flex-direction:row; /* specify here, otherwise it inherits from .ethos! */
     flex-wrap:wrap;
     align-content:center;
 }
@@ -103,21 +103,21 @@ nav ul li {
 .competitive {
     color:white;
     background-color:#374767;
-    padding:2rem 0rem;
+    padding:2rem 0.625rem;
 }
 
 .logistics {
     color:#374767;
     border: 6px solid #CCC;
-    padding:10px;
+    padding:0.625rem;
 }
 
 .training {
     color: #CF123C;
     border-top: 1px solid #CCC;
     border-bottom: 1px solid #CCC;
-    padding-top:20px;
-    padding-bottom:10px;
+    padding-top:1.25rem;
+    padding-bottom:0.625rem;
 }
 
 .training h2 {
