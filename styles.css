@@ -1,5 +1,5 @@
 *{
-    border: 1px red solid;
+    
 }
 
 body {
@@ -71,11 +71,11 @@ nav ul li {
 }
 
 .ethos {
-    margin-top: 1rem;
     display:flex;
     flex-direction:column;
     justify-content:space-between;
     align-items: flex-start;
+    padding-top: 1rem;
     padding-left:0.625rem;
     padding-right:0.625rem;
 }
@@ -166,7 +166,20 @@ nav ul li {
     .jumbotron {
         display:block;
     }
+    /* center text elements so as to be more prominent to user with larger screen */
+    .ethos { 
+        width: 80%;
+        margin: auto;
+    }
+    .ethos h2 {
+        align-self:center; /* center h2 but not the text below it! weird look." */
+    }
     .competitive{
         text-align:center;
     }
+
+    .content { /* delineate jumbotron from the rest of the content. */
+        border-top: 0.3rem #374767 solid;
+    }
+
 }
