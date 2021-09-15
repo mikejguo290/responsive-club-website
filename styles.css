@@ -76,10 +76,8 @@ nav ul li {
     flex-direction:column;
     justify-content:space-between;
     align-items: flex-start;
-}
-
-.ethos h2 {
-    align-self:center;
+    padding-left:0.625rem;
+    padding-right:0.625rem;
 }
 
 #cta {
