@@ -214,7 +214,6 @@ nav ul li {
         grid-template-columns: repeat(3, 360px);
         /* two rows of equal size */
         grid-template-rows:minmax(240px, 1fr) 1fr;
-        grid-gap:0.5rem;
         justify-content: center;
 
         background-color:white;
