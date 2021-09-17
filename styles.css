@@ -202,6 +202,10 @@ nav ul li {
         align-items:center;
     }
 
+    .ethos-images {
+        display:none;
+    }
+
     /* layout the images with grid */
     .ethos-images.grid-layout {
         display:grid;
@@ -212,6 +216,8 @@ nav ul li {
         grid-template-rows:minmax(240px, 1fr) 1fr;
         grid-gap:0.5rem;
         justify-content: center;
+
+        background-color:white;
     }
 
     .ethos-images.grid-layout figure:nth-of-type(1){
