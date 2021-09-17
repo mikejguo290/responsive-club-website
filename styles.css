@@ -6,6 +6,10 @@ body {
     width: 95%;
     margin: auto;
     color:#333; /*off black color*/
+    max-width:2000px; /* to stop the design pulled out of shape by being stretched too wide at wide screens. */
+    min-width:280px; 
+    /* stop the design from shrinking beyond 280px. every child element with responsive dimensions will stop being responsive
+     and shrink with overall body if screen is shrunk beyond 280px.*/
 }
 
 h1 {
