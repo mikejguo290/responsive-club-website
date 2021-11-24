@@ -201,9 +201,8 @@ nav ul li {
     .ethos{ /* center h2 and all ps within ethos */
         align-items:center;
     }
-
     .ethos-images {
-        display:none;
+        background-color:white; /* gets rid of dark blue background */
     }
 
     /* layout the images with grid */
